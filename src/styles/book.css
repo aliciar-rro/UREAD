@@ -1,0 +1,25 @@
+.book__price {
+    color: #283e3a;;
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+.books__book{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+
+}
+
+.portada{
+    justify-content: center;
+}
+
+@media only screen and (max-width: 430px) {
+    .books__book{
+        width: 50%;
+
+    }
+}

@@ -1,0 +1,8 @@
+.bookfinder-container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-evenly;
+    padding: 10px;
+    border: solid aliceblue;
+}

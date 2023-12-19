@@ -1,0 +1,21 @@
+.nav-container {
+    border: solid #b5ded9 1px   ;
+    width:100%;
+    max-height: 65px;
+}
+
+.nav-container .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7.5vh;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav li {
+    margin-right: 1em;
+}

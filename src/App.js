@@ -1,25 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import {Footer} from "./components/Footer";
+import {useBooks} from "./hooks/useBooks";
+import React, {useState} from "react";
+import {LoginContext} from "./components/LoginContext";
+import {useLogin} from "./hooks/useLogin";
+import {BookContext} from "./components/BookContext";
+import {BookRouter} from "./router/BookRouter";
+import "./styles/app.css"
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    const {LoggedIn, login, logout,  UserData} = useLogin();
+    const {books, handleFilter} = useBooks();
+    const [darkMode, setDarkMode] = useState(false);
+
+    return (
+        <div className="contents">
+            <LoginContext.Provider value={{LoggedIn, login, logout, UserData}}>
+                <BookContext.Provider value={{books, handleFilter, darkMode, setDarkMode}}>
+                        <BookRouter></BookRouter>
+                    </BookContext.Provider>
+                <Footer></Footer>
+            </LoginContext.Provider>
+          </div>
+      );
 }
 
 export default App;

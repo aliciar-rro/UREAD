@@ -1,0 +1,36 @@
+.contents {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.contents>div{
+    flex:1;
+}
+
+button {
+    background-color: #91E7E1;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+}
+
+button:hover {
+    background-color: white;
+    color: #91E7E1;
+    border: solid #b5ded9 1px;
+}
+
+.dark-mode {
+    background-color: #2f3c3b;
+    color: white;
+}
+
+.dark-mode button{
+    background-color: #239E94;
+}
+
+.dark-mode header, .dark-mode footer{
+    background-color: #495b59;
+}
+

@@ -1,0 +1,11 @@
+.navbar__logout{
+    margin-right: 10px;
+}
+
+.navbar__logout button{
+    background-color: #239E94;
+}
+
+.dark-mode .navbar__logout button{
+    background-color: #1a1a1a;
+}

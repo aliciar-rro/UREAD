@@ -1,0 +1,31 @@
+.confirm-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.confirm-container__data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.confirm-container h3 {
+    margin-bottom: 20px;
+}
+
+.confirm-container p {
+    margin-bottom: 20px;
+}
+
+.confirm-container__buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.confirm-container__buttons button {
+    margin-left: 10px;
+    margin-right: 10px;
+}

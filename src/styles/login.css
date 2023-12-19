@@ -1,0 +1,28 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #239E94;
+}
+
+.login-container__table {
+    width: 70%;
+    max-width: 400px;
+    border: solid #91E7E1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.login-container__table label{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.login-container__table input {
+    font-size: 18px;
+    margin-bottom: 10px;
+}

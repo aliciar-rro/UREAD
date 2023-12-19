@@ -1,0 +1,33 @@
+.checkout-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.checkout-container h3 {
+    margin-bottom: 20px;
+}
+
+.checkout-container__data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detail_img{
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.checkout-container__buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.checkout-container__buttons button {
+    margin-left: 10px;
+    margin-right: 10px;
+}
