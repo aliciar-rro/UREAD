@@ -36,3 +36,6 @@ Descripción breve del proyecto Uread:
     - `App.js`: Archivo principal que inicia la aplicación.
     - `index.js`: Archivo principal para renderizar la aplicación.
     - `logo.svg`: Archivo SVG del logo del proyecto.
+
+### Deploy
+https://uread-alicias-projects-e5de1860.vercel.app/login
