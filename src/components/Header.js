@@ -5,6 +5,11 @@ import {Login} from "./Login";
 import {Logout} from "./Logout";
 
 export const Header = () => {
+
+    /*
+        Componente de encabezado con logo
+     */
+
     return (
         <header className="header">
             <img className="logo" src={logotipo} alt="logo"/>

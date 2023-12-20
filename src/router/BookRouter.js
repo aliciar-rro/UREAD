@@ -13,6 +13,12 @@ import {Header} from "../components/Header";
 
 
 export const BookRouter = () => {
+
+    /*
+        Enrutador
+        Se usa el contexto para saber si un usuario está logeado y mostrar unas rutas u otras
+     */
+
     const {LoggedIn} = useContext(LoginContext);
 
     return (

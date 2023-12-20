@@ -5,6 +5,11 @@ import "../styles/logout.css"
 
 export const Logout = () => {
 
+    /*
+        Componente de Logout
+        Hace uso del contexto para simular un logout
+     */
+
     const {logout} = useContext(LoginContext);
 
     return(

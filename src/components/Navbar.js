@@ -5,6 +5,12 @@ import "../styles/navbar.css";
 
 export const Navbar = () => {
 
+    /*
+        Componente de barra de navegación
+        Dará acceso a la ruta home '/' y usuario '/user/
+        Además permite acceder al componente logout para simular un cierre de sesión
+     */
+
     return (
         <div className="nav-container">
             <nav className="nav">

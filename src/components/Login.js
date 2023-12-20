@@ -5,6 +5,11 @@ import "../styles/login.css";
 
 export const Login = () => {
 
+    /*
+        Componente de login
+        Hace uso del contexto y del estado para simular un login
+     */
+
     const {LoggedIn, login} = useContext(LoginContext);
     const [user, setUser] = useState('');
     const [password, setPassword] = useState('');

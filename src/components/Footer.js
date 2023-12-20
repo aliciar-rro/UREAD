@@ -1,6 +1,9 @@
 import React from "react";
 import '../styles/footer.css';
 export const Footer = () => {
+    /*
+        Componente de Pie de página
+     */
     return (
         <footer className="footer">
             <p>URead</p>

@@ -4,6 +4,11 @@ import {BookContext} from "./BookContext";
 
 export const BookFinder = () => {
 
+    /*
+        Componente de buscador de libros
+        Usa un filtro haciendo uso del contexto y del estado
+     */
+
     const {handleFilter} = useContext(BookContext);
     const[value, setValue] = useState('');
 

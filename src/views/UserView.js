@@ -6,6 +6,11 @@ import {BookContext} from "../components/BookContext";
 
 export const UserView = () => {
 
+    /*
+     * Vista general de los datos de usuario
+     * Incluye una opción de cambio de Modo Oscuro/Claro
+     */
+
     const { UserData } = useContext(LoginContext);
     const [userProfile, setUserProfile] = useState(null);
 

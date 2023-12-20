@@ -3,6 +3,11 @@ import {Link, useParams} from "react-router-dom";
 import {BookContext} from "../components/BookContext";
 import "../styles/checkout.css"
 export const CheckoutView = () => {
+
+    /*
+        Vista de checkout de la compra de un libro
+     */
+
     const {bookId} = useParams();
     const { books } = useContext(BookContext);
     const book = books.find(b => b.id === bookId);

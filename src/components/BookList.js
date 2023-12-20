@@ -5,6 +5,11 @@ import {BookContext} from "./BookContext";
 
 export const BookList = () => {
 
+    /*
+        Componente de lista de libros
+        Usando el contexto recupera la lista de libros
+     */
+
     const { books } = useContext(BookContext);
 
     return (

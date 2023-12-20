@@ -4,6 +4,10 @@ import {useParams} from "react-router-dom";
 import {BookContext} from "../components/BookContext";
 
 export const PreviewView = ( {}) => {
+
+    /*
+     Vista de la previsualización del libro comprado
+     */
     const {bookId} = useParams();
     const { books } = useContext(BookContext);
     const book = books.find(b => b.id === bookId);

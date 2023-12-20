@@ -1,4 +1,3 @@
-import './App.css';
 import {Footer} from "./components/Footer";
 import {useBooks} from "./hooks/useBooks";
 import React, {useState} from "react";
@@ -11,6 +10,12 @@ import "./styles/app.css"
 
 function App() {
 
+    /*
+    * Añadimos datos de login y otros datos de aplicacion general
+    * Proveemos los contextos de la aplicación
+    * Llamamos al enrutador
+    *
+    * */
     const {LoggedIn, login, logout,  UserData} = useLogin();
     const {books, handleFilter} = useBooks();
     const [darkMode, setDarkMode] = useState(false);

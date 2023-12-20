@@ -3,6 +3,10 @@ import {useEffect, useState} from "react";
 
 export const useLogin = () => {
 
+    /*
+        Custom hook para manejar el login
+     */
+
     const [LoggedIn, setLoggedIn] = useState(false);
     const [UserData, setUserData] = useState('');
 

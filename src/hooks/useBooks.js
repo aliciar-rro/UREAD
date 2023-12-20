@@ -3,6 +3,10 @@ import bookList from  "../assets/bookList.json"
 
 export const useBooks = () => {
 
+    /*
+        Custom hook para manejar las llamadas a la lista de libros (con su filtro)
+     */
+
     const [books, setBooks] = useState([]);
     const [filter, setFilter] = useState('');
     let [filteredBooks] = [];

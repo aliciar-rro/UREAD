@@ -3,6 +3,11 @@ import {Link, useParams} from "react-router-dom";
 import {BookContext} from "../components/BookContext";
 import "../styles/confirm.css";
 export const ConfirmView = ( {}) => {
+
+    /*
+        Vista de confirmacion de compra
+     */
+
     const {bookId} = useParams();
     const { books } = useContext(BookContext);
     const book = books.find(b => b.id === bookId);
