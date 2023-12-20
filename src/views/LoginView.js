@@ -1,12 +1,12 @@
 import React, {useContext, useState} from "react";
-import {LoginContext} from "./LoginContext";
+import {LoginContext} from "../components/LoginContext";
 import {useNavigate} from "react-router";
 import "../styles/login.css";
 
-export const Login = () => {
+export const LoginView = () => {
 
     /*
-        Componente de login
+        Vista de login
         Hace uso del contexto y del estado para simular un login
      */
 

@@ -5,7 +5,7 @@ import { ErrorView } from "../views/ErrorView";
 import {CheckoutView} from "../views/CheckoutView";
 import {ConfirmView} from "../views/ConfirmView";
 import {PreviewView} from "../views/PreviewView";
-import {Login} from "../components/Login";
+import {LoginView} from "../views/LoginView";
 import {LoginContext} from "../components/LoginContext";
 import {UserView} from "../views/UserView";
 import {Navbar} from "../components/Navbar";
@@ -38,7 +38,7 @@ export const BookRouter = () => {
                 ) : (
                     <Route path="/" element={<Navigate to="/login" />} />
                 )}
-                <Route path="/login" element={<Login />} />
+                <Route path="/login" element={<LoginView />} />
                 <Route path="*" element={<ErrorView />} />
             </Routes>
         </BrowserRouter>

@@ -16,7 +16,6 @@ Descripción breve del proyecto Uread:
       - [BookList.js](src%2Fcomponents%2FBookList.js)
       - [Footer.js](src%2Fcomponents%2FFooter.js)
       - [Header.js](src%2Fcomponents%2FHeader.js)
-      - [Login.js](src%2Fcomponents%2FLogin.js)
       - [LoginContext.js](src%2Fcomponents%2FLoginContext.js)
       - [Logout.js](src%2Fcomponents%2FLogout.js)
       - [Navbar.js](src%2Fcomponents%2FNavbar.js)
@@ -33,9 +32,11 @@ Descripción breve del proyecto Uread:
       - [HomeView.js](src%2Fviews%2FHomeView.js)
       - [PreviewView.js](src%2Fviews%2FPreviewView.js)
       - [UserView.js](src%2Fviews%2FUserView.js)
+      - [LoginView.js](src%2Fviews%2FLoginView.js)
+
     - `App.js`: Archivo principal que inicia la aplicación.
     - `index.js`: Archivo principal para renderizar la aplicación.
     - `logo.svg`: Archivo SVG del logo del proyecto.
 
 ### Deploy
-https://uread-alicias-projects-e5de1860.vercel.app/login
+https://uread-alicias-projects-e5de1860.vercel.app
