@@ -14,6 +14,7 @@ export const UserView = () => {
     const { UserData } = useContext(LoginContext);
     const [userProfile, setUserProfile] = useState(null);
 
+
     useEffect(() => {
         setUserProfile(userDataJson);
     }, [UserData]);

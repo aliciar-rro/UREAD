@@ -22,8 +22,8 @@ export const LoginView = () => {
         setPassword(e.target.value);
     }
 
-
     const processLogin =  (e) => {
+        //Nunca son nulos -> siempre se hace login
         if( user !== null && password !=null){
             login(user);
             navigate("/");

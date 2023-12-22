@@ -6,7 +6,7 @@ Descripción breve del proyecto Uread:
 
 - `uread`: Carpeta principal del proyecto.
 - `node_modules`: Carpeta que contiene las dependencias del proyecto.
-- `public`: Carpeta con archivos públicos (como `favicon.ico`, `index.html`, etc.).
+- `public`: Carpeta con archivos públicos (como `index.html`, etc.).
 - `src`: Carpeta que contiene el código fuente del proyecto.
     - `assets`: Carpeta para archivos multimedia u otros recursos.
     - `components`: Carpeta que contiene los componentes del proyecto.
